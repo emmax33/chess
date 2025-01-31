@@ -1,0 +1,24 @@
+@font-face {
+  font-family: ChessFont;
+  src: url(fonts/chess-sans-700.f253a3c2.woff2);
+}
+
+* {
+    font-family: ChessFont;
+    font-weight: 100;
+}
+
+:root {
+    --border-color: #3f4248;
+
+    --primary-color: #302e2b;
+    --secondary-color: #1e1f22;
+
+    --announcement-background-color: #5865f2;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
